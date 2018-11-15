@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+  <title></title>
+  <asp:ContentPlaceHolder id="head" runat="server">
+  </asp:ContentPlaceHolder>
+  <link href="Content/bootstrap-theme.css" rel="stylesheet" /><link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+  <link href="Content/bootstrap.css" rel="stylesheet" />
+  <link href="Content/bootstrap.min.css" rel="stylesheet" />
+  <link href="BookstoreStyles.css" rel="stylesheet" />
+</head>
+<body>
+  <div>
+    <form id="form1" runat="server">
+    <div class="content">
+      <div class="row margin-top-25 margin-bottom-15 siteHeader">
+        <div class="col-sm-4">
+          <h1>Books</h1>
+        </div>
+        <div class="col-sm-3 headerSignIn">
+          <asp:Label ID=UsernameLabel runat="server" Text="ID: &nbsp;"></asp:Label>
+          <asp:TextBox CssClass="form-control" ID=TextBox1 runat="server"></asp:TextBox>
+        </div>
+        <div class="col-sm-3 headerSignIn">
+          <asp:Label ID=PasswordLabel runat="server" Text="Password: &nbsp"></asp:Label>
+          <asp:TextBox ID=TextBox2 runat="server" CssClass="form-control"></asp:TextBox>
+        </div>
+        <div class="col-sm-1">
+          <asp:Button ID=HeaderSignInSubmit runat="server" CssClass="btn btn-sm btn-secondary"  Text="Sign In" />
+        </div>
+
+      </div>
+      <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+       
+        
+      </asp:ContentPlaceHolder>
+    </div>
+    </form>
+  </div>
+  <script src="Scripts/jquery-3.0.0.min.js"></script>
+  <script src="Scripts/bootstrap.min.js"></script>
+  <script src="Scripts/popper-utils.js"></script>
+  <script src="Scripts/popper.min.js"></script>
+  <script src="Scripts/app.js"></script>
+</body>
+
+</html>

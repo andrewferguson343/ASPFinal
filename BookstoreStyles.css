@@ -1,0 +1,49 @@
+﻿.content{
+  max-width: 60%;
+  margin: auto;
+}
+
+.header{
+  padding-top: 20px;
+  border-top: 1px solid black;
+
+}
+.bookCover{
+  width: 60%;
+  height: 220px;
+
+}
+
+#Welcome{
+  margin-top:20px;
+}
+
+.header div{
+  font-size:20px;
+}
+
+.margin-top-15{
+  margin-top: 15px;
+}
+.margin-top-20 {
+  margin-top: 20px;
+}
+.margin-top-25 {
+  margin-top: 25px;
+}
+
+.margin-bottom-30{
+  margin-bottom: 30px; 
+}
+
+.margin-bottom-15 {
+  margin-bottom: 15px;
+}
+
+.headerSignIn{
+  font-size:16px;
+}
+  .headerSignIn input{
+    width:55%;
+    display:inline-block;
+  }

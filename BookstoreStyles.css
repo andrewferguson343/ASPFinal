@@ -6,12 +6,11 @@
 .header{
   padding-top: 20px;
   border-top: 1px solid black;
-
 }
+
 .bookCover{
   width: 60%;
-  height: 220px;
-
+  height: 160px;
 }
 
 #Welcome{
@@ -33,11 +32,15 @@
 }
 
 .margin-bottom-30{
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 
 .margin-bottom-15 {
   margin-bottom: 15px;
+}
+
+.margin-bottom-10{
+  margin-bottom: 10px;
 }
 
 .headerSignIn{
@@ -47,3 +50,22 @@
     width:55%;
     display:inline-block;
   }
+
+.registrationContainer input{
+  display:inline-block;
+  width: 70%;
+}
+
+.registrationContainer select {
+  display: inline-block;
+  width: 70%;
+}
+
+.registrationContainer span {
+  display: inline-block;
+  width: 25%;
+}
+
+.registrationRadioButton input{
+  width:10% !important;
+}

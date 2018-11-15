@@ -7,7 +7,7 @@
     <div class="col-sm-3 selected"><a href="home.aspx">Home</a></div>
     <div class="col-sm-3">Browse Books</div>
     <div class="col-sm-3">Profile</div>
-    <div class="col-sm-3">Register</div>
+    <div class="col-sm-3"><a href="registration.aspx">Register</a></div>
   </div>
   <div class="row" id="Welcome">
     <div class="col-sm-12">
@@ -72,46 +72,51 @@
             </div>
           </div>
           <a class="carousel-control-next" href="#topBooksSlide" role="button" data-slide="next">
-            <span aria-hidden="true"> Next Page > </span>
+            <span aria-hidden="true">Next Page > </span>
           </a>
         </div>
-        
       </div>
       <div class="row">
         <div class="col-sm-9"></div>
         <div class="col-sm-3">
-          <a style="float:right;" href="books.aspx">View All > </a>
+          <a style="float: right;" href="books.aspx">View All > </a>
         </div>
       </div>
       <h3 class="margin-top-15">Most Popular Fiction Books</h3>
-      <div class="row margin-top-15" >
-        <div class=col-sm-3><img class="bookCover" src="images/HyperionCover.jpg" /></div>
-        <div class=col-sm-3><img class="bookCover" src="images/itCover.jpg" /></div>
-        <div class=col-sm-3><img class="bookCover" src="images/lotCover.jpg" /></div>
-        <div class=col-sm-3><img class="bookCover" src="images/1984-book-cover.jpg" /></div>
+      <div class="row margin-top-15">
+        <div class="col-sm-3">
+          <img class="bookCover" src="images/HyperionCover.jpg" /></div>
+        <div class="col-sm-3">
+          <img class="bookCover" src="images/itCover.jpg" /></div>
+        <div class="col-sm-3">
+          <img class="bookCover" src="images/lotCover.jpg" /></div>
+        <div class="col-sm-3">
+          <img class="bookCover" src="images/1984-book-cover.jpg" /></div>
       </div>
       <div class="row">
         <div class="col-sm-9"></div>
         <div class="col-sm-3">
-          <a style="float:right;" href="books.aspx">View All > </a>
+          <a style="float: right;" href="books.aspx">View All > </a>
         </div>
       </div>
 
       <h3 class="margin-top-15">Most Popular Non-Fiction Books</h3>
       <div class="row margin-top-15">
-        <div class=col-sm-3><img class="bookCover" src="images/cCover.jpg" /></div>
-        <div class=col-sm-3><img class="bookCover" src="images/brothersCover.jpg" /></div>
-        <div class=col-sm-3><img class="bookCover" src="images/gunsCover.jpg" /></div>
-        <div class=col-sm-3><img class="bookCover" src="images/whatCover.png" /></div>
+        <div class="col-sm-3">
+          <img class="bookCover" src="images/cCover.jpg" /></div>
+        <div class="col-sm-3">
+          <img class="bookCover" src="images/brothersCover.jpg" /></div>
+        <div class="col-sm-3">
+          <img class="bookCover" src="images/gunsCover.jpg" /></div>
+        <div class="col-sm-3">
+          <img class="bookCover" src="images/whatCover.png" /></div>
       </div>
       <div class="row margin-bottom-30">
-      <div class="col-sm-9"></div>
-      <div class="col-sm-3">
-        <a style= "float:right" href="books.aspx">View All > </a>
+        <div class="col-sm-9"></div>
+        <div class="col-sm-3">
+          <a style="float: right" href="books.aspx">View All > </a>
+        </div>
       </div>
     </div>
-    </div>
-    
-   
   </div>
 </asp:Content>

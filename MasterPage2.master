@@ -26,7 +26,7 @@
           </div>
           <div class="col-sm-4 headerSignIn">
             <asp:Label ID="PasswordLabel" runat="server" Text="Password: &nbsp"></asp:Label>
-            <asp:TextBox ID="PasswordSignIn" runat="server" CssClass="form-control"></asp:TextBox>
+            <asp:TextBox ID="PasswordSignIn" runat="server" type=Password CssClass="form-control"></asp:TextBox>
           </div>
           <div class="col-sm-1">
             <asp:Button ID="HeaderSignInSubmit" runat="server" Type="button" CssClass="btn btn-sm btn-secondary" Text="Sign In" OnClick=HeaderSignInSubmit_Click />

@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
   <div class="row header">
     <div class="col-sm-3"><a href="home.aspx">Home</a></div>
-    <div class="col-sm-3">Browse Books</div>
+    <div class="col-sm-3"><a href="browse.aspx">Browse Books</a></div>
     <div class="col-sm-3"><a href="profilePage.aspx">Profile</a></div>
     <div class="col-sm-3 selected"><a href="registration.aspx">Register</a></div>
   </div>
@@ -16,9 +16,11 @@
     <div class="col-sm-8">
       <asp:Label ID=UsernameLabel runat="server" Text="Username:"></asp:Label>
       <asp:TextBox ID=registrationUsername runat="server" CssClass="form-control margin-bottom-10"></asp:TextBox>
-
+      <asp:RequiredFieldValidator CssClass=forceDisplay ID=RequiredFieldValidator2 ControlToValidate=registrationUsername runat="server" ForeColor=red ErrorMessage="Username required"></asp:RequiredFieldValidator>
+      
       <asp:Label ID=PasswordLabel runat="server" Text="Password:"></asp:Label>
       <asp:TextBox ID=registrationPassword runat="server" CssClass="form-control margin-bottom-10"></asp:TextBox>
+      <asp:RequiredFieldValidator CssClass=forceDisplay ID=RequiredFieldValidator3 runat="server" ControlToValidate=registrationPassword ForeColor=red ErrorMessage="Password required"></asp:RequiredFieldValidator>
 
       <asp:Label ID="FirstNameLabel" runat="server" Text="First Name:"></asp:Label>
       <asp:TextBox ID="registrationFirstName" CssClass="form-control margin-bottom-10" runat="server"></asp:TextBox>
@@ -43,6 +45,9 @@
         <asp:ListItem>Male</asp:ListItem>
         <asp:ListItem>Female</asp:ListItem>
       </asp:RadioButtonList>
+      <asp:RequiredFieldValidator CssClass=forceDisplay ID=RequiredFieldValidator1 runat="server" ControlToValidate=RadioButtonList1 ForeColor=red ErrorMessage="Gender required"></asp:RequiredFieldValidator>
+
+
       <br/>
 
       <asp:Label ID="GenreLabel" runat="server" Text="Favorite Genre:"></asp:Label>
@@ -51,7 +56,7 @@
         <asp:ListItem>Fiction</asp:ListItem>
       </asp:DropDownList>
       <asp:Button ID=RegistrationButton runat="server" Text="Register" CssClass="RegistrationSubmit btn btn-primary" OnClick=RegistrationButton_Click />
-      <asp:Label ID=acceptanceLabel runat="server" Text="" CssClass="margin-top-10"></asp:Label>
+      <asp:Label  ID=acceptanceLabel runat="server" Text="" CssClass="forceDisplay margin-top-10"></asp:Label>
     </div>
     <div class="col-sm-4">
      

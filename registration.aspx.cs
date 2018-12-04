@@ -26,7 +26,7 @@ public partial class registration : System.Web.UI.Page
     string password = registrationPassword.Text;
     string name = string.Format("{0} {1}", registrationFirstName.Text, registrationLastName.Text);
     string address = string.Format("{0}, {1}, {2}, {3}", registrationAddress.Text, registrationCity.Text, registrationState.Text, registrationZip.Text);
-    string gender = RadioButtonList1.SelectedItem.Text;
+    string gender = RadioButtonList1.SelectedItem.Text == null ? "none provided" : RadioButtonList1.SelectedItem.Text;
     string genre = DropDownList1.SelectedItem.Text;
 
     Dictionary<string, string> registrationInfo = new Dictionary<string, string>();

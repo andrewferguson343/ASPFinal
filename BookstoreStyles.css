@@ -91,3 +91,8 @@
 .display{
   display:inline-block;
 }
+
+.forceDisplay{
+  display:block !important;
+  width:100% !important;
+}

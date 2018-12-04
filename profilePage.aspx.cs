@@ -31,7 +31,7 @@ public partial class profilePage : System.Web.UI.Page
     }
     else
     {
-      Label1.Text = "You must sign in to view profile.";
+      Label1.Text = "You must sign in to view profile information.";
       Delete.Style["display"] = "none";
     }
   }

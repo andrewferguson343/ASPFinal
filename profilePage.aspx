@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
   <div class="row header">
     <div class="col-sm-3 selected"><a href="home.aspx">Home</a></div>
-    <div class="col-sm-3">Browse Books</div>
+    <div class="col-sm-3"><a href=Browse.aspx>Browse Books</a></div>
     <div class="col-sm-3"><a href="profilePage.aspx">Profile</a></div>
     <div class="col-sm-3"><a href="registration.aspx">Register</a></div>
   </div>

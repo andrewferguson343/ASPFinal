@@ -8,4 +8,13 @@
     <gender>Male</gender>
     <genre>Fiction</genre>
   </user>
+  <user>
+    <fullName>
+    </fullName>
+    <userName>Andrew</userName>
+    <pasword>password</pasword>
+    <address>, , , </address>
+    <gender>Male</gender>
+    <genre>NonFiction</genre>
+  </user>
 </Users>

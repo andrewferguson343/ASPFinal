@@ -7,8 +7,6 @@
   <title></title>
   <asp:ContentPlaceHolder ID="head" runat="server">
   </asp:ContentPlaceHolder>
-  <link href="Content/bootstrap-theme.css" rel="stylesheet" />
-  <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
   <link href="Content/bootstrap.css" rel="stylesheet" />
   <link href="Content/bootstrap.min.css" rel="stylesheet" />
   <link href="BookstoreStyles.css" rel="stylesheet" />
@@ -17,22 +15,40 @@
   <div>
     <form id="form1" runat="server">
       <div class="content">
-        <div class="row margin-top-25 margin-bottom-15 siteHeader">
+        <!--Signed Out-->
+        <div id="signedOut" runat=server class="row margin-top-25 margin-bottom-25 siteHeader">
           <div class="col-sm-3">
             <h1>Books</h1>
-          </div>
-          <div class="col-sm-3 headerSignIn">
+          </div>          
+          <div runat=server class="col-sm-3 headerSignIn">
             <asp:Label ID="UsernameLabel" runat="server" Text="ID: &nbsp;"></asp:Label>
-            <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:TextBox CssClass="form-control" ID="usernameSignIn" runat="server"></asp:TextBox>
           </div>
           <div class="col-sm-4 headerSignIn">
             <asp:Label ID="PasswordLabel" runat="server" Text="Password: &nbsp"></asp:Label>
-            <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control"></asp:TextBox>
+            <asp:TextBox ID="PasswordSignIn" runat="server" CssClass="form-control"></asp:TextBox>
           </div>
           <div class="col-sm-1">
-            <asp:Button ID="HeaderSignInSubmit" runat="server" CssClass="btn btn-sm btn-secondary" Text="Sign In" />
+            <asp:Button ID="HeaderSignInSubmit" runat="server" Type="button" CssClass="btn btn-sm btn-secondary" Text="Sign In" OnClick=HeaderSignInSubmit_Click />
           </div>
         </div>
+        <!--END signed out-->
+        <!--Signed In-->
+        <div id="signedIn" style="display:none" runat=server class="row margin-top-25 margin-bottom-25 siteHeader">
+          <div class="col-sm-3">
+            <h1>Books</h1>
+          </div>          
+          <div runat=server class="col-sm-9 headerSignIn" style="font-size: 18px;">
+            <asp:Label ID=SignedInLabel runat="server" Text="Label"></asp:Label>
+          </div>
+        </div>
+        <div class="row">
+          <div class=col-sm-3></div>
+          <div class=col-sm-9>
+            <asp:Label ID=errorLabel runat="server" Text="" ForeColor=Red CssClass=margin-bottom-10></asp:Label>
+          </div>
+        </div>
+        <!--END signed in-->
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
       </div>
@@ -40,8 +56,6 @@
   </div>
   <script src="Scripts/jquery-3.0.0.min.js"></script>
   <script src="Scripts/bootstrap.min.js"></script>
-  <script src="Scripts/popper-utils.js"></script>
-  <script src="Scripts/popper.min.js"></script>
   <script src="Scripts/app.js"></script>
 </body>
 </html>

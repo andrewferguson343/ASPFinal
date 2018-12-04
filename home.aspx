@@ -5,8 +5,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
   <div class="row header">
     <div class="col-sm-3 selected"><a href="home.aspx">Home</a></div>
-    <div class="col-sm-3">Browse Books</div>
-    <div class="col-sm-3">Profile</div>
+    <div class="col-sm-3"><a href=Browse.aspx>Browse Books</a></div>
+    <div class="col-sm-3"><a href="profilePage.aspx">Profile</a></div>
     <div class="col-sm-3"><a href="registration.aspx">Register</a></div>
   </div>
   <div class="row" id="Welcome">
@@ -24,62 +24,62 @@
               <div class="carousel-item active">
                 <div class="row">
                   <div class="col-sm-3">
-                    <img class="bookCover" src="images/NorseCover.jpeg" />
+                    <asp:ImageButton ID=Norse runat="server" ImageUrl= "images/NorseCover.jpeg" CssClass=bookCover OnClick=loadBook CustomParameter=1 />
                   </div>
                   <div class="col-sm-3">
-                    <img class="bookCover" src="images/HyperionCover.jpg" />
+                    <asp:ImageButton ID=Hyperion runat="server" ImageUrl="images/HyperionCover.jpg" CssClass=bookCover  OnClick=loadBook CustomParameter=2 />
                   </div>
                   <div class="col-sm-3">
-                    <img class="bookCover" src="images/maladiesCover.jpg" />
+                    <asp:ImageButton ID=Maladies runat="server" ImageUrl="images/maladiesCover.jpg" CssClass=bookCover  OnClick=loadBook CustomParameter=3  />
                   </div>
                   <div class="col-sm-3">
-                    <img class="bookCover" src="images/1984-book-cover.jpg" />
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-sm-3">
-                    <img class="bookCover" src="images/brothersCover.jpg" />
-                  </div>
-                  <div class="col-sm-3">
-                    <img class="bookCover" src="images/cCover.jpg" />
-                  </div>
-                  <div class="col-sm-3">
-                    <img class="bookCover" src="images/gunsCover.jpg" />
-                  </div>
-                  <div class="col-sm-3">
-                    <img runat="server" onclick="" class="bookCover" src="images/lotCover.jpg" />
+                    <asp:ImageButton ID=OrwellCover runat="server" ImageUrl="images/1984-book-cover.jpg" CssClass=bookCover  OnClick=loadBook CustomParameter=4  />
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="row">
                   <div class="col-sm-3">
-                    <img class="bookCover" src="images/itCover.jpg" />
+                    <asp:ImageButton ID=Brothers runat="server" ImageUrl="images/brothersCover.jpg" CssClass=bookCover OnClick=loadBook CustomParameter=5 />
                   </div>
                   <div class="col-sm-3">
-                    <img class="bookCover" src="images/ringsCover.jpg" />
+                    <asp:ImageButton ID=C runat="server" ImageUrl="images/cCover.jpg" CssClass=bookCover OnClick=loadBook CustomParameter=6  />
                   </div>
                   <div class="col-sm-3">
-                    <img class="bookCover" src="images/shiningCover.jpg" />
+                    <asp:ImageButton ID=Guns runat="server" ImageUrl="images/gunsCover.jpg" CssClass=bookCover  OnClick=loadBook CustomParameter=7 />
                   </div>
                   <div class="col-sm-3">
-                    <img class="bookCover" src="images/whatCover.png" />
+                    <asp:ImageButton ID=Lot runat="server" ImageUrl="images/lotCover.jpg"  OnClick=loadBook CssClass=bookCover CustomParameter=8 />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <asp:ImageButton ID=It runat="server" ImageUrl="images/itCover.jpg" OnClick=loadBook CssClass=bookCover CustomParameter=9 />
+                  </div>
+                  <div class="col-sm-3">
+                    <asp:ImageButton ID=Rings runat="server" ImageUrl="images/ringsCover.jpg" OnClick=loadBook CssClass=bookCover CustomParameter=10 />
+                  </div>
+                  <div class="col-sm-3">
+                    <asp:ImageButton ID=Shining runat="server" ImageUrl="images/shiningCover.jpg" OnClick=loadBook  CssClass=bookCover CustomParameter=11/>
+                  </div>
+                  <div class="col-sm-3">
+                    <asp:ImageButton ID=ImageButton1 runat="server" ImageUrl="images/whatCover.png" OnClick=loadBook CssClass=bookCover CustomParameter=12/>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <a class="carousel-control-next" href="#topBooksSlide" role="button" data-slide="next">
-            <span aria-hidden="true">Next Page > </span>
+          <a class="carousel-control-next" href="#topBooksSlide"  role="button" data-slide="next">
+            <span style="color:black;" aria-hidden="true">></span>
           </a>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-9"></div>
         <div class="col-sm-3">
-          <a style="float: right;" href="books.aspx">View All > </a>
+          <a style="float: right;" href="Browse.aspx">View All > </a>
         </div>
       </div>
       <h3 class="margin-top-15">Most Popular Fiction Books</h3>
@@ -96,7 +96,7 @@
       <div class="row">
         <div class="col-sm-9"></div>
         <div class="col-sm-3">
-          <a style="float: right;" href="books.aspx">View All > </a>
+          <a style="float: right;" href="Browse.aspx">View All > </a>
         </div>
       </div>
 
@@ -114,7 +114,7 @@
       <div class="row margin-bottom-30">
         <div class="col-sm-9"></div>
         <div class="col-sm-3">
-          <a style="float: right" href="books.aspx">View All > </a>
+          <a style="float: right" href="Browse.aspx">View All > </a>
         </div>
       </div>
     </div>

@@ -8,9 +8,9 @@
   border-top: 1px solid black;
 }
 
-.bookCover{
+.bookCover{ 
   width: 60%;
-  height: 160px;
+  height: 200px;
 }
 
 #Welcome{
@@ -68,4 +68,26 @@
 
 .registrationRadioButton input{
   width:10% !important;
+}
+
+.summaryCover{
+  width: 70%;
+  height:90%;
+}
+
+.RegistrationSubmit{
+  margin-top: 15px;
+  width: 90px !important;
+}
+
+ table{
+  display:inline-table;
+}
+
+.noDisplay{
+  display:none;
+}
+
+.display{
+  display:inline-block;
 }

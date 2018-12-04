@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2048
+VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "asp final", "..\..\..\Documents\asp final\", "{1BF0385F-4C59-4DC7-A005-09BCCA10DBDE}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "asp final", ".", "{1BF0385F-4C59-4DC7-A005-09BCCA10DBDE}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51452"
@@ -21,7 +21,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "asp final", "..\..\..\Docum
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "51452"
-		SlnRelativePath = "..\..\..\Documents\asp final\"
 	EndProjectSection
 EndProject
 Global
@@ -36,6 +35,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6E289806-E588-4F9B-8C21-B565B9E25630}
+		SolutionGuid = {B3990FE1-3211-4E50-B3D2-2A03801DB884}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BookList>
+  <Book>
+    <Id>1</Id>
+    <Title>American Gods</Title>
+    <Author>Niel Gaiman</Author>
+    <Details>
+      Locked behind bars for three years, Shadow did his time, quietly waiting for the day when he could return to 
+      Eagle Point, Indiana. A man no longer scared of what tomorrow might bring, 
+      all he wanted was to be with Laura, the wife he deeply loved, and start a new life.
+    </Details>
+    <Price>9.99</Price>
+    <Image>images/NorseCover.jpeg</Image>
+  </Book>
+  <Book>
+    <Id>2</Id>
+    <Title>Hyperion</Title>
+    <Author>Dan Simmons</Author>
+    <Details>
+      A stunning tour de force filled with transcendent awe and wonder, Hyperion is a masterwork of science fiction that resonates with excitement and invention, the first volume in a remarkable epic by the multiple-award-winning author of The Hollow Man
+    </Details>
+    <Price>7.99</Price>
+    <Image>images/HyperionCover.jpg</Image>
+  </Book>
+  <Book>
+    <Id>3</Id>
+    <Title>Emperor Of All Maladies</Title>
+    <Author>Siddhartha Mukherjee</Author>
+    <Details>
+      Winner of the Pulitzer Prize, and now a documentary from Ken Burns on PBS, The Emperor of All Maladies is a magnificent, profoundly humane “biography” of cancer—from its first documented appearances thousands of years ago through the epic battles in the twentieth century to cure, control, and conquer it to a radical new understanding of its essence.
+    </Details>
+    <Price>11.99</Price>
+    <Image>images/maladiesCover.jpg</Image>
+  </Book>
+  <Book>
+    <Id>4</Id>
+    <Title>1984</Title>
+    <Author>George Orwell</Author>
+    <Details>
+      In 1984, London is a grim city in the totalitarian state of Oceania where Big Brother is always watching you and the Thought Police can practically read your mind. Winston Smith is a man in grave danger for the simple reason that his memory still functions. Drawn into a forbidden love affair, Winston finds the courage to join a secret revolutionary organization called The Brotherhood, dedicated to the destruction of the Party. Together with his beloved Julia, he hazards his life in a deadly match against the powers that be.
+    </Details>
+    <Price>8.99</Price>
+    <Image>images/1984-book-cover.jpg</Image>
+  </Book>
+  <Book>
+    <Id>5</Id>
+    <Title>Band of Brothers</Title>
+    <Author>Stephen Ambrose</Author>
+    <Details>
+      They came together, citizen soldiers, in the summer of 1942, drawn to Airborne by the $50 monthly bonus and a desire to be better than the other guy. And at its peak—in Holland and the Ardennes—Easy Company was as good a rifle company as any in the world.
+    </Details>
+    <Price>13.99</Price>
+    <Image>images/brothersCover.jpg</Image>
+  </Book>
+  <Book>
+    <Id>6</Id>
+    <Title>C# 5.0</Title>
+    <Author>Joseph Albahari</Author>
+    <Details>
+      When you have questions about C# 7.0 or the .NET CLR and its core Framework assemblies, this bestselling guide has the answers you need. Since its debut in 2000, C# has become a language of unusual flexibility and breadth, but its continual growth means there’s always more to learn.
+    </Details>
+    <Price>11.99</Price>
+    <Image>images/cCover.jpg</Image>
+  </Book>
+  <Book>
+    <Id>7</Id>
+    <Title>Guns, Germs, And Steel</Title>
+    <Author>Jared Diamond</Author>
+    <Details>
+      In this "artful, informative, and delightful" (William H. McNeill, New York Review of Books) book, Jared Diamond convincingly argues that geographical and environmental factors shaped the modern world. Societies that had had a head start in food production advanced beyond the hunter-gatherer stage, and then developed religion --as well as nasty germs and potent weapons of war --and adventured on sea and land to conquer and decimate preliterate cultures.
+    </Details>
+    <Price>11.99</Price>
+    <Image>images/gunsCover.jpg</Image>
+  </Book>
+  <Book>
+    <Id>8</Id>
+    <Title>'Salems Lot</Title>
+    <Author>Stephen King</Author>
+    <Details>
+      Ben Mears has returned to Jerusalem's Lot in the hopes that living in an old mansion, long the subject of town lore, will help him cast out his own devils and provide inspiration for his new book. But when two young boys venture into the woods and only one comes out alive, Mears begins to realize that there may be something sinister at work and that his hometown is under siege by forces of darkness far beyond his control.
+    </Details>
+    <Price>11.99</Price>
+    <Image>images/lotCover.jpg</Image>
+  </Book>
+  <Book>
+    <Id>9</Id>
+    <Title>It</Title>
+    <Author>Stephen King</Author>
+    <Details>
+      They were seven teenagers when they first stumbled upon the horror. Now they are grown-up men and women who have gone out into the big world to gain success and happiness. But the promise they made twenty-eight years ago calls them reunite in the same place where, as teenagers, they battled an evil creature that preyed on the city’s children. Now, children are being murdered again and their repressed memories of that terrifying summer return as they prepare to once again battle the monster lurking in Derry’s sewers.
+    </Details>
+    <Price>11.99</Price>
+    <Image>images/itCover.jpg</Image>
+  </Book>
+  <Book>
+    <Id>10</Id>
+    <Title>Lord of the Rings</Title>
+    <Author>Tolkien</Author>
+    <Details>
+      The three volumes that make up Tolkien's epic classic The Lord of the Rings are here presented in their standard cloth editions including large format fold-out maps and an extensive appendices. Set contains The Fellowship of the Ring, The Two Towers, and The Return of the King, with jackets and a box designed by celebrated illustrator Alan Lee.
+    </Details>
+    <Price>11.99</Price>
+    <Image>images/ringsCover.jpg</Image>
+  </Book>
+  <Book>
+    <Id>11</Id>
+    <Title>The Shining</Title>
+    <Author>Stephen King</Author>
+    <Details>
+      Jack Torrance’s new job at the Overlook Hotel is the perfect chance for a fresh start. As the off-season caretaker at the atmospheric old hotel, he’ll have plenty of time to spend reconnecting with his family and working on his writing. But as the harsh winter weather sets in, the idyllic location feels ever more remote . . . and more sinister. And the only one to notice the strange and terrible forces gathering around the Overlook is Danny Torrance, a uniquely gifted five-year-old.
+    </Details>
+    <Price>11.99</Price>
+    <Image>images/shiningCover.jpg</Image>
+  </Book>
+  <Book>
+    <Id>12</Id>
+    <Title>What if?</Title>
+    <Author>Siddhartha Mukherjee</Author>
+    <Details>
+      Millions of people visit xkcd.com each week to read Randall Munroe’s iconic webcomic. His stick-figure drawings about science, technology, language, and love have a large and passionate following.
+      Fans of xkcd ask Munroe a lot of strange questions. What if you tried to hit a baseball pitched at 90 percent the speed of light? How fast can you hit a speed bump while driving and live?
+    </Details>
+    <Price>11.99</Price>
+    <Image>images/whatCover.png</Image>
+  </Book>
+
+
+</BookList>
